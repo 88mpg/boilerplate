@@ -15,16 +15,19 @@ module.exports = function(grunt) {
         }
       },
     },
+
     sass: {
         dist: {
             options: {
                 style: 'compressed'
             },
             files: {
-                'dist/css/main.min.css': 'src/scss/main.scss'
+                'dist/css/main.min.css': 'src/scss/main.scss',
+                'vendor/css/bootstrap.min.css': 'vendor/scss/bootstrap.scss'
             }
         } 
     },
+
     jshint: {
       files: ['src/js/*.js'],
       options: {
@@ -62,7 +65,7 @@ module.exports = function(grunt) {
         }
       },
       css: {
-        files: ['src/scss/*.scss'],
+        files: ['src/scss/*.scss','vendor/scss/**/*.scss'],
         tasks: ['sass'],
         options: {
           spawn: false,
@@ -85,6 +88,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-contrib-imagemin');
+  grunt.loadNpmTasks('grunt-newer');
 
-  grunt.registerTask('default', ['sass', 'jshint', 'uglify', 'htmlmin', 'imagemin']);
+  grunt.registerTask('default', ['newer:sass:all', 'jshint', 'uglify', 'htmlmin', 'newer:imagemin:all']);
 };
