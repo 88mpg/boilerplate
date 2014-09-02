@@ -13,7 +13,9 @@
     "grunt-contrib-watch": "^0.6.1",
     "grunt-init": "^0.3.2"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "grunt-html-build": "^0.3.2"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
