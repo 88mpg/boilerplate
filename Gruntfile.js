@@ -21,8 +21,8 @@ module.exports = function(grunt) {
           style: 'compressed'
         },
         files: {
-          'dist/css/main.min.css': 'src/scss/main.scss',
-          'vendor/css/bootstrap.min.css': 'vendor/scss/bootstrap.scss'
+          'assets/css/main.min.css': 'src/scss/main.scss',
+          'assets/vendor/css/bootstrap.min.css': 'assets/vendor/scss/bootstrap.scss'
         }
       } 
     },
@@ -40,7 +40,7 @@ module.exports = function(grunt) {
       my_target: {
         files: [{
           src: 'src/js/*.js',
-          dest: 'dist/js/main.min.js'
+          dest: 'assets/js/main.min.js'
         }]
       },
     },
@@ -63,7 +63,7 @@ module.exports = function(grunt) {
         }
       },
       css: {
-        files: ['src/scss/*.scss','vendor/scss/**/*.scss'],
+        files: ['src/scss/*.scss','assets/vendor/scss/**/*.scss'],
         tasks: ['sass'],
         options: {
           spawn: false,
