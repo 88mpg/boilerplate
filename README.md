@@ -6,7 +6,6 @@
 
 1.  [Bootstrap v3.2.0](//getbootstrap.com)
 2.  [jQuery v1.11.0](//jquery.com)
-3.  [Angular v.1.23](//angularjs.org)
 
 ## [Grunt v0.4.5](//gruntjs.com) Modules
 
