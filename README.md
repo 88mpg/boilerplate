@@ -19,7 +19,7 @@
     </li>
 </ol>
 <h2>To Do:</h2>
-<ol>
+<ul>
     <li><del>Repo</del> <a href="//github.com/88mpg/boilerplate">Github</a></li>
     <li><del>jQuery</del> 1.11.0</li>
     <li><del>Bootstrap</del> 3.2.0</li>
@@ -31,4 +31,4 @@
     <li>Deployment</li>
     <li>Finish Readme</li>
     <li>Empty Index</li>
-</ol>
+</ul>
