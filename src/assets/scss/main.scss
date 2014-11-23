@@ -1,0 +1,29 @@
+/* Output: /dist/css/main.min.css */
+
+/*
+global style overrides
+should be editing /src/assets/scss/bootstrap/
+*/
+body {
+	background: whitesmoke;
+}
+footer {
+	margin-top: 20px;
+	padding: 20px 0;
+}
+ol, ul {
+	padding-left: 20px;
+}
+ol {
+	li {
+		margin: 20px 0;
+	}
+}
+
+/* readme specific */
+.done {
+ 	text-decoration: line-through;
+}
+.imagemin {
+	max-width: 80%;
+}
