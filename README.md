@@ -18,3 +18,17 @@
         Navigate to <code>src/index.html</code> to begin making edits to your index page.
     </li>
 </ol>
+<h2>To Do:</h2>
+<ol>
+    <li><del>Repo</del> <a href="//github.com/88mpg/boilerplate">Github</a></li>
+    <li><del>jQuery</del> 1.11.0</li>
+    <li><del>Bootstrap</del> 3.2.0</li>
+    <li><del>Grunt</del></li>
+    <li><del>SASS</del></li>
+    <li><del>Uglify</del> <a href="//github.com/gruntjs/grunt-contrib-uglify">grunt-contrib-uglify</a></li>
+    <li><del>Image Minification</del> <a href="//github.com/gruntjs/grunt-contrib-imagemin">grunt-contrib-imagemin</a></li>
+    <li>Potential Frameworkz</li>
+    <li>Deployment</li>
+    <li>Finish Readme</li>
+    <li>Empty Index</li>
+</ol>
