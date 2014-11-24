@@ -17,7 +17,9 @@
     <style>
     body {
         padding-top: 70px;
-        /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+        /* Required padding for .navbar-fixed-top.
+        Remove if using .navbar-static-top.
+        Change if height of navigation changes. */
     }
     </style>
 
@@ -39,9 +41,7 @@
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
+                    <span>&#9776;</span>
                 </button>
                 <a class="navbar-brand" href="/">README</a>
             </div>
@@ -60,7 +60,17 @@
 
     <div class="container">
         <div class="row">
-            <div class="col-md-8 col-xs-12 readme">
+            <div class="readme col-md-8 col-xs-12">
+                <h1>Dependencies</h1>
+                <p>Before getting started with this boilerplate, you'll need to make sure you have some required dependencies installed on your computer: <a href="//nodejs.org">Node.js</a> and <a href="//gruntjs.com/">Grunt</a>.</p>
+                <ol>
+                    <li>
+                        You can install Node (and <a href="/www.npmjs.org/">NPM</a>, short for "node package manager") by visiting the <a href="//nodejs.org">Node.js website</a> and downloading their latest install client. So Simple!</li>
+                    <li>
+                        After installing Node and NPM, you can install the Grunt client on the command line with the following:
+                        <pre><code>sudo npm install -g grunt-cli</code></pre>
+                    </li>
+                </ol>
                 <h1>Getting Started</h1>
                 <h4>Extended from <a href="//github.com/IronSummitMedia/startbootstrap/tree/gh-pages/templates/bare" target="_blank">Bare Template</a> from <a href="//startbootstrap.com" target="_blank">Start Bootstrap</a>.</h4>
                 <hr/>
@@ -70,19 +80,23 @@
                         <pre><code>git clone https://github.com/88mpg/boilerplate.git</code></pre>
                     </li>
                     <li>
-                        Install dependencies.
-                        <pre><code>sudo npm install</code></pre>
+                        Enter directory and install dependencies.
+                        <pre><code>cd boilerplate<br/>sudo npm install</code></pre>
                     </li>
                     <li>
                         Watch files with Grunt.
                         <pre><code>grunt watch</code></pre>
+                        <strong>NOTE:</strong> To stop watching, press <em>Ctrl+C</em> in your Terminal.
+                    </li>
+                    <li>
+                        If you'd like to use LiveReload (automatic page reloading) in conjunction with <code>grunt watch</code>, install the <a href="//feedback.livereload.com/knowledgebase/articles/86242-how-do-i-install-and-use-the-browser-extensions-">appropriate browser extension for your environment</a>, then click the new icon to activate livereload for the page you're working on. Now, when you save a file while watching your project your page will reload automatically!
                     </li>
                     <li>
                         Navigate to <code>src/index.html</code> to begin making edits to your index page.
                     </li>
                 </ol>
             </div>
-            <div class="col-md-4 col-xs-12 todo">
+            <div class="col-md-4 col-xs-12">
                 <h2>To Do:</h2>
                 <ul>
                     <li><del>Repo</del> <a href="//github.com/88mpg/boilerplate">Github</a></li>
@@ -102,11 +116,6 @@
                 <img class="imagemin" src="assets/img/cat.jpg" alt="626kb @ 2715x4073">
             </div>
         </div>
-    </div>
-    <div class="container-fullwidth">
-        <footer>
-            
-        </footer>
     </div>
     <script src="assets/lib/js/jquery-1.11.0.min.js"></script>
     <script src="assets/lib/js/bootstrap-3.2.0.min.js"></script>

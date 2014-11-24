@@ -68,6 +68,9 @@ module.exports = function(grunt) {
       html: {
         files: ['src/**/*.html'],
         tasks: ['htmlmin'],
+        options: {
+          livereload: true,
+        }
       }
     },
   });
