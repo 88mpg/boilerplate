@@ -15,7 +15,7 @@ sudo npm install -g grunt-cli
 
 # Getting Started
 
-#### Extended from [bare template](//github.com/IronSummitMedia/startbootstrap/tree/gh-pages/templates/bare) from [start bootstrap](//startbootstrap.com).
+#### More command line stuff.
 
 * * *
 
