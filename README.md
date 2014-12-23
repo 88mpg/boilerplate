@@ -7,15 +7,15 @@ Before getting started, you'll need to make sure you have some required dependen
 1.  Install Node by visiting the [Node.js website](//nodejs.org) and downloading their latest install client. So Simple!
 2.  After installing Node and NPM, you can install the Grunt client on the command line with the following:
 
-        sudo npm install -g grunt-cli
+        `sudo npm install -g grunt-cli`
 
-    * * *
+* * *
 
-    # Getting Started
+# Getting Started
 
-    #### Extended from [bare template](//github.com/IronSummitMedia/startbootstrap/tree/gh-pages/templates/bare) from [start bootstrap](//startbootstrap.com).
+#### Extended from [bare template](//github.com/IronSummitMedia/startbootstrap/tree/gh-pages/templates/bare) from [start bootstrap](//startbootstrap.com).
 
-    * * *
+* * *
 
 1.  Clone the repo ([link](//github.com/88mpg/boilerplate)) to your localhost root.
                 `git clone https://github.com/88mpg/boilerplate.git`
