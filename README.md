@@ -7,7 +7,9 @@ Before getting started, you'll need to make sure you have some required dependen
 1.  Install Node by visiting the [Node.js website](//nodejs.org) and downloading their latest install client. So Simple!
 2.  After installing Node and NPM, you can install the Grunt client on the command line with the following:
 
-        `sudo npm install -g grunt-cli`
+````
+sudo npm install -g grunt-cli
+````
 
 * * *
 
@@ -17,16 +19,23 @@ Before getting started, you'll need to make sure you have some required dependen
 
 * * *
 
-1.  Clone the repo ([link](//github.com/88mpg/boilerplate)) to your localhost root.
-                `git clone https://github.com/88mpg/boilerplate.git`
-2.  Enter directory and install dependencies.
-                `cd boilerplate
-                sudo npm install`
-3.  Watch files with Grunt.
-                `grunt watch'
+Clone the repo ([link](//github.com/88mpg/boilerplate)) to your localhost root.
+````
+git clone https://github.com/88mpg/boilerplate.git
+````
+Enter directory and install dependencies.
+````
+cd boilerplate
+sudo npm install
+````
+Watch files with Grunt.
+````
+grunt watch
+````
 
 **NOTE:** To stop watching, press _Ctrl+C_ in your Terminal.
-4.  If you'd like to use LiveReload (automatic page reloading) in conjunction with `grunt watch`, install the [appropriate browser extension for your environment](//feedback.livereload.com/knowledgebase/articles/86242-how-do-i-install-and-use-the-browser-extensions-). Once installed, click the new icon in your navigation bar to activate livereload for the page you're working on. Now, when you save a file while watching your project your page will reload automatically!
+
+If you'd like to use LiveReload (automatic page reloading) in conjunction with `grunt watch`, install the [appropriate browser extension for your environment](//feedback.livereload.com/knowledgebase/articles/86242-how-do-i-install-and-use-the-browser-extensions-). Once installed, click the new icon in your navigation bar to activate livereload for the page you're working on. Now, when you save a file while watching your project your page will reload automatically!
 
 * * *
 
