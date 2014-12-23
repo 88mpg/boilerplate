@@ -17,8 +17,6 @@ sudo npm install -g grunt-cli
 
 #### More command line stuff.
 
-* * *
-
 Clone the repo ([link](//github.com/88mpg/boilerplate)) to your localhost root.
 ````
 git clone https://github.com/88mpg/boilerplate.git
