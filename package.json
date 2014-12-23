@@ -1,7 +1,4 @@
 {
-  "name": "Boilerplate",
-  "version": "1.0.0",
-  "description": "Simple sample boilerplate.",
   "main": "Gruntfile.js",
   "dependencies": {
     "grunt": "^0.4.5",
@@ -18,15 +15,5 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/88mpg/boilerplate.git"
-  },
-  "author": "Adam Fratino",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/88mpg/boilerplate/issues"
-  },
-  "homepage": "https://github.com/88mpg/boilerplate"
+  }
 }

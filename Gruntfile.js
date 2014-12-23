@@ -23,8 +23,7 @@ module.exports = function(grunt) {
           style: 'compressed'
         },
         files: {
-          'build/assets/css/main.css': 'src/assets/scss/main.scss',
-          'build/assets/css/bootstrap.min.css': 'src/assets/scss/bootstrap/bootstrap.scss'
+          'build/assets/css/main.min.css': 'src/assets/scss/bootstrap.scss',
         }
       } 
     },
@@ -42,7 +41,7 @@ module.exports = function(grunt) {
       my_target: {
         files: [{
           src: 'src/assets/js/*.js',
-          dest: 'build/assets/js/app.js'
+          dest: 'build/assets/js/main.min.js'
         }]
       },
     },
@@ -58,11 +57,11 @@ module.exports = function(grunt) {
     },
     watch: {
       js: {
-        files: ['src/assets/js/*.js', 'build/assets/vendor/js/*.js'],
+        files: ['src/assets/js/*.js'],
         tasks: ['jshint', 'uglify'],
       },
       css: {
-        files: ['src/assets/scss/*.scss','src/assets/scss/bootstrap/*.scss'],
+        files: ['src/assets/scss/*.scss'],
         tasks: ['sass'],
       },
       html: {
