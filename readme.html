@@ -35,8 +35,8 @@
     <link rel="stylesheet" href="build/assets/css/main.min.css">
 
     <style>
+        /* specific to readme */
         body {background: whitesmoke;}
-        footer {margin-top: 20px; padding: 20px 0;}
         ol {padding-left: 20px;}
         .readme ol li {margin: 20px 0;}
         .imagemin {max-width: 80%;}
@@ -74,7 +74,7 @@
                 <ol>
                     <li>
                         Clone the repo (<a href="//github.com/88mpg/boilerplate">link</a>) to your localhost root.
-                        <pre><code>git clone https://github.com/88mpg/boilerplate.git</code></pre>
+                        <pre><code>git clone git://github.com/88mpg/boilerplate.git</code></pre>
                     </li>
                     <li>
                         Enter directory and install dependencies.
@@ -93,7 +93,7 @@
                 <h1>Working With Files</h1>
                 <h4>Some consider this the fun part.</h4>
                 <p>Navigate to <code>src/index.html</code> (an empty template) to begin making edits to your index page. Since you're running your watch task, whenever you save your source index file it will automatically compile to your build folder.</p>
-                <p>Style changes can be made in <code>src/scss/main.scss</code>. This file will be compiled along with Bootstrap and all of its partials, mixins, etc. to a minified output located at <code>build/assets/css/main.min.css</code>. If you're not using Bootstrap for this project, or you only need a portion of Bootstrap's CSS, feel free to disable the unneeded includes in <code>src/scss/bootstrap.scss</code>, or delete the unneeded files entirely. If you accidentally delete a Bootstrap file needed for your project (i.e. a mixin or variable used elsewhere), JSHint will notify you of the missing file when Grunt attempts to compile the CSS.</p>
+                <p>Style changes can be made in <code>src/assets/scss/main.scss</code>. This file will be compiled along with Bootstrap and all of its partials, mixins, etc. to a minified output located at <code>build/assets/css/main.min.css</code>. If you're not using Bootstrap for this project, or you only need a portion of Bootstrap's CSS, feel free to disable the unneeded includes in <code>src/assets/scss/bootstrap.scss</code>, or delete the unneeded files entirely. If you accidentally delete a Bootstrap file needed for your project (i.e. a mixin or variable used elsewhere), JSHint will notify you of the missing file when Grunt attempts to compile the CSS.</p>
                 <p>Your Javascript files will all be concatenated into a single, minified JS file via Grunt. Included in the source folder is the full, unminified version of Bootstrap. If you don't need it, delete it! If you only need certain functions within the file go in and delete what you don't need, but note that JSHint has been disabled for Bootstrap, so if you make an error it's on you!</p>
             </div>
             <div class="col-md-4 col-xs-12">
